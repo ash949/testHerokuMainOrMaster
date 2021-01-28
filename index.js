@@ -14,6 +14,6 @@ app.get('/test2', (req, res) => {
   res.send('test 222222222222222222');
 });
 
-app.listen(PORT, () => {
-  console.log(`running on port ${PORT}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log('Listening on Port ' + PORT);
 });
